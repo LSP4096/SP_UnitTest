@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (NSInteger)sum:(NSInteger)num;
 
 @end
 
