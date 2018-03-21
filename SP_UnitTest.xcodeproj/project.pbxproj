@@ -17,6 +17,7 @@
 		24F18375205A5B8D007E93A5 /* SP_UnitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F18374205A5B8D007E93A5 /* SP_UnitTestTests.m */; };
 		24F18380205A5B8E007E93A5 /* SP_UnitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F1837F205A5B8E007E93A5 /* SP_UnitTestUITests.m */; };
 		3378D3C25ECEB084D859436A /* libPods-SP_UnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A50B1FCEC33DA9C87D2736E /* libPods-SP_UnitTestTests.a */; };
+		4CFAAB442062293300397ACC /* viewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAAB432062293300397ACC /* viewControllerTest.m */; };
 		A05A4C8AB5EF228D650B232D /* libPods-SP_UnitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C2E58A07BF89E6143804F /* libPods-SP_UnitTest.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		24F1837F205A5B8E007E93A5 /* SP_UnitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SP_UnitTestUITests.m; sourceTree = "<group>"; };
 		24F18381205A5B8E007E93A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B9B4008CDC2623A472C38A /* Pods-SP_UnitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SP_UnitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SP_UnitTest/Pods-SP_UnitTest.release.xcconfig"; sourceTree = "<group>"; };
+		4CFAAB432062293300397ACC /* viewControllerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewControllerTest.m; sourceTree = "<group>"; };
 		504E07BEDD98BC0A86C635C0 /* libPods-SP_UnitTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SP_UnitTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D9266EB8BCDB13E03769CA /* Pods-SP_UnitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SP_UnitTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SP_UnitTestTests/Pods-SP_UnitTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		778D081EB40475F6BB01EABE /* Pods-SP_UnitTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SP_UnitTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SP_UnitTestUITests/Pods-SP_UnitTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				24F18374205A5B8D007E93A5 /* SP_UnitTestTests.m */,
+				4CFAAB432062293300397ACC /* viewControllerTest.m */,
 				24F18376205A5B8D007E93A5 /* Info.plist */,
 			);
 			path = SP_UnitTestTests;
@@ -477,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFAAB442062293300397ACC /* viewControllerTest.m in Sources */,
 				24F18375205A5B8D007E93A5 /* SP_UnitTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,15 +19,29 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (NSInteger)sum:(NSInteger)num {
+    return num;
+}
+
+//模拟网络异步请求
+- (void)sendRequest:(void (^)(id))finished {
+    dispatch_queue_t goubleQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(goubleQueue, ^{
+        [NSThread sleepForTimeInterval:3];
+        NSString *tagString = @"网络请求成功耗时3秒";
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            finished(tagString);
+        });
+    });
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (NSInteger)sum:(NSInteger)num {
-    return num;
-}
+
 
 
 @end

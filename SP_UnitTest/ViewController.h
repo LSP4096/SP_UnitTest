@@ -12,5 +12,7 @@
 
 - (NSInteger)sum:(NSInteger)num;
 
+- (void)sendRequest:(void(^)(id))finished;
+
 @end
 
